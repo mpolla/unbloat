@@ -1,0 +1,91 @@
+<!-- Default CSS layout of Scratchwiki -->
+<!-- Matti Pöllä <mpo@iki.fi>          -->
+
+p.error {
+  color: red;
+  border: 3px solid red;
+  margin: 5px;
+  padding: 5px;
+  margin: 5px;
+  padding: 3px;
+}
+p.sig {
+  color: gray;
+  font-size: 0.8em;
+  text-align: right;
+  margin: 0px;
+  padding-right: 5px;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  color: black;
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  color: black;
+  background-color: #fff383;
+}
+a.indexlist {
+  text-decoration: none;
+  border-bottom: none;
+  color: black;
+  background-color: transparent;
+}
+a.indexlist:hover {
+  text-decoration: none;
+  color: black;
+  background-color: #fff383;
+}
+a.sig {
+  text-decoration: none;
+  color: gray;
+  background-color: transparent;
+}
+a.sig:hover {
+  text-decoration: none;
+  color: gray;
+  background-color: transparent;
+}
+h1 { 
+  color: #333;
+  background-color: #fff;
+  margin: 2px;
+  padding: 3px;
+}
+h3 { 
+  color: #bbb;
+  background-color: #fff;
+  margin: 5px;
+  padding: 0px;
+}
+div.page { 
+  background-color: #fcfcfc; 
+  border: 1px dashed gray;
+  margin: 5px;
+  padding: 5px;
+}
+div.revisions { 
+  background-color: #ffffff; 
+  border: 1px dashed gray;
+  margin: 5px;
+  padding: 5px;
+}
+pre { 
+  margin: 0px;
+  padding: 0px;
+}
+input,select {
+  background-color : #ffe;
+  border : 1px solid gray;
+  margin: 5px;
+}
+textarea {
+  width: 98%;
+  background-color : #ffe;
+  border : 1px dashed gray;
+  margin: 5px;
+  padding: 5px;
+}
